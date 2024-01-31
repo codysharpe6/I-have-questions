@@ -1,0 +1,121 @@
+In file included from /private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:4:0:
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:37: error: 'USISIF' was not declared in this scope
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                     ^~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:37: note: suggested alternative: 'SPIF'
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                     ^~~~~~
+                                     SPIF
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:49: error: 'USIOIF' was not declared in this scope
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                 ^~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:49: note: suggested alternative: 'SPIF'
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                 ^~~~~~
+                                                 SPIF
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:61: error: 'USIPF' was not declared in this scope
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                             ^~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:72: error: 'USIDC' was not declared in this scope
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                                        ^~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:85: error: 'USICNT0' was not declared in this scope
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                                                     ^~~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:62:85: note: suggested alternative: 'INT0'
+ const unsigned char USISR_8bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0x0<<USICNT0;
+                                                                                     ^~~~~~~
+                                                                                     INT0
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:37: error: 'USISIF' was not declared in this scope
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                     ^~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:37: note: suggested alternative: 'SPIF'
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                     ^~~~~~
+                                     SPIF
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:49: error: 'USIOIF' was not declared in this scope
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                 ^~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:49: note: suggested alternative: 'SPIF'
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                 ^~~~~~
+                                                 SPIF
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:61: error: 'USIPF' was not declared in this scope
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                             ^~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:72: error: 'USIDC' was not declared in this scope
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                                        ^~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:85: error: 'USICNT0' was not declared in this scope
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                                                     ^~~~~~~
+/Users/codysharpe/Documents/Arduino/libraries/ssd1306xled/ssd1306xled.h:64:85: note: suggested alternative: 'INT0'
+ const unsigned char USISR_1bit = 1<<USISIF | 1<<USIOIF | 1<<USIPF | 1<<USIDC | 0xE<<USICNT0;
+                                                                                     ^~~~~~~
+                                                                                     INT0
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:10:25: error: expected initializer before 'Sharpe'
+ const unsigned char The Sharpe Side of Paranormal_A[] PROGMEM = {
+                         ^~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino: In function 'void setup()':
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:48:5: error: expected ';' before 'Serial'
+ 82  Serial.begin(9600);
+     ^~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:49:7: error: expected ';' before 'pinMode'
+ 83    pinMode(PIN_ANTENNA, INPUT);
+       ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:51:1: error: expected ';' before numeric constant
+ 85    display.begin(ssd1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+ ^~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:52:8: error: expected ';' before 'display'
+ 86     display.clearDisplay();
+        ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:53:5: error: expected ';' before 'display'
+ 87  display.drawBitmap(0, 0,The Sharpe Side of Paranormal, 64, 64, WHITE); // display.drawBitmap(x position, y position, bitmap data, bitmap width, bitmap height, color)
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:54:5: error: expected ';' before 'display'
+ 88  display.display();
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:55:5: error: expected ';' before 'delay'
+ 89  delay(2000);
+     ^~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:56:5: error: expected ';' before 'display'
+ 90  display.clearDisplay();
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:57:5: error: expected ';' before 'display'
+ 91  display.setTextSize(2);
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:58:5: error: expected ';' before 'display'
+ 92  display.setTextColor(WHITE);
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:59:5: error: expected ';' before 'display'
+ 93  display.setCursor(22,10);
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:60:5: error: expected ';' before 'display'
+ 94  display.println("sharpe side of paranormal");// Print text
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:61:5: error: expected ';' before 'display'
+ 95  display.setCursor(10,40);
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:62:5: error: expected ';' before 'display'
+ 96  display.println("EMF METER");
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:63:5: error: expected ';' before 'display'
+ 97  display.display();
+     ^~~~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:64:5: error: expected ';' before 'delay'
+ 98  delay(2000);
+     ^~~~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:65:3: error: expected ';' before '}' token
+ 99}
+   ^
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino: At global scope:
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:66:1: error: expected unqualified-id before numeric constant
+ 100
+ ^~~
+/private/var/folders/jx/sr_nx03s3d74057jv5bt9wtr0000gn/T/.arduinoIDE-unsaved2024031-63746-2bcvvb.zntgl/sketch_jan31a/sketch_jan31a.ino:80:1: error: expected unqualified-id before numeric constant
+ 114
+ ^~~
+
+exit status 1
+
+Compilation error: expected initializer before 'Sharpe'
